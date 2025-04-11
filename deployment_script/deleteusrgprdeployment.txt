@@ -1,0 +1,27 @@
+userdel -r -f amanda
+userdel -r -f carlos
+userdel -r -f debora
+userdel -r -f joao
+userdel -r -f josefina
+userdel -r -f maria
+userdel -r -f roberto
+userdel -r -f rogerio
+userdel -r -f sebastiana
+
+groupdel GRP_VEN
+groupdel GRP_SEC
+groupdel GRP_ADM
+
+rmdir /adm
+rmdir /ven
+rmdir /publico
+rmdir /sec
+
+ls /home/
+
+ls -l /
+
+cat /etc/group
+
+
+
